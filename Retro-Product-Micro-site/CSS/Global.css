@@ -1,0 +1,68 @@
+/* Setting the font family and margin to 0 for the entire body */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+/* Styling for the header */
+header {
+  background-color:#333333;;
+  color: #ffffff;
+  text-align: center;
+  padding:0px;
+}
+
+/* Styling for the navigation bar */
+.header-content nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+/* Styling for the navigation links in the header */
+.header-content nav li {
+  margin-right: 20px;
+}
+
+.header-content nav a {
+  color: #ffffff;
+  text-decoration: none;
+}
+nav a:hover { /*colour pops when choosing the menu*/
+  color: #d11b1b;
+}
+/* Styling for the header content */
+.header-content h1 {
+  max-width: 800px;
+  margin-right: 60px;
+  padding-top: 50px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+/* Styling for the button */
+.button {
+  background-color: #ffffff;
+  color: #333333;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 1.2rem;
+}
+
+.button:hover {
+  background-color: #333333;
+  color: #b87272;
+}
+/* footer */
+footer {
+  background-color: #333333;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+}

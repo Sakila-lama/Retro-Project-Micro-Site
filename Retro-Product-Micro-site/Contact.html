@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head id="head">
+    <!--Title of the web page-->
+    <title>AntiqueTalk telephone</title>
+    <!--Description of the web page-->
+    <meta name="description" content="Contact Page">
+    <!-- JavaScript & jQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="./Javascript/javascript.js"></script>
+    <!--Importing ionicons library for using icons-->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+  <header id="header"></header> 
+  <!--Main content section of the web page-->
+<main>
+  <!--Title of the page-->
+    <div class="title">
+        <h2>Contact Us</h2>
+    </div>
+<!--Contact form section-->
+<form>
+    <div class="contact-form">
+      <h3>Send a message</h3>
+      <!--Form inputs for user to enter data-->
+      <div class="form-box">
+        <div class="row50">
+          <div class="input-box">
+            <label for="first-name">First Name</label>
+            <input type="text" id="first-name" placeholder="First Name">
+          </div>
+          <div class="input-box">
+            <label for="last-name">Last Name</label>
+            <input type="text" id="last-name" placeholder="Last Name">
+          </div>
+        </div>
+  
+        <div class="row50">
+          <div class="input-box">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Your Email">
+          </div>
+          <div class="input-box">
+            <label for="phone">Contact Number</label>
+            <input type="tel" id="phone" placeholder="Your Phone Number">
+          </div>
+        </div>
+  
+        <div class="row100">
+          <div class="input-box">
+            <label for="message">Message</label>
+            <textarea id="message" placeholder="Write your message here.."></textarea>
+          </div>
+        </div>
+  
+        <div class="input-box">
+          <input type="submit" value="Send">
+        </div>
+      </div>
+    </div>
+  </form>
+  
+    <!--Contact information section-->
+    <div class="contact info">
+    <h3>Contact Info</h3>
+    <div class="infoBox">
+     <div>
+    <span><ion-icon name="location"></ion-icon></span>
+    <p>772 Hurst Dr, Toronto, ON, Canada</p>
+    </div>
+    <div>
+    <span><ion-icon name="mail"></ion-icon></span>
+    <a href="mailto:AntiqueTalks@gmail.com">AntiqueTalks@gmail.com</a>
+    </div>
+    <div>
+    <span><ion-icon name="call"></ion-icon></span>
+    <a href="tel:647-967-1433">647-967-1433</a>
+    </div>
+    <!--Social Media-->
+    <ul class="SocialMedia">
+    <li><a href=#><ion-icon name="logo-facebook"></ion-icon></a></li>
+    <li><a href=#><ion-icon name="logo-instagram"></ion-icon></a></li>
+    </ul>
+
+    </div>
+    </div>
+<!-- Map -->
+    <div class="contact map">
+     <div class="bottom-right">
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23093.466520467948!2d-79.39667691432516!3d43.65475671374583!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4cb34d27310bd%3A0xba15d20622070393!2sDowntown%20Toronto%2C%20Toronto%2C%20ON!5e0!3m2!1sen!2sca!4v1680914165920!5m2!1sen!2sca"
+        style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    </div>
+</main>
+<footer id="footer"></footer>
+</body>
+</html>
